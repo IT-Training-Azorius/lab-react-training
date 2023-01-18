@@ -1,0 +1,29 @@
+.card {
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    height: 120px;
+    justify-content: space-between;
+}
+
+.cardImage {
+    width: 50px;
+    align-self: flex-end;
+}
+
+.cardNumber {
+    align-self: center;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+.cardExtra {
+    text-align: left;
+}
+
+.cardBank {
+    margin-left: 1rem;
+}
